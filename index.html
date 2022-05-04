@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>REFERADA</title>
+</head>
+<body>
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <a href="index.html"><img src="img/vuv_logo.png" alt="Error" class="ml-1 my-0 mr-md-auto font-weight-normal"></a>
+    <nav class="my-2 my-md-0 mr-md-3" id="strictRight">
+      <a class="p-2 text-dark m-1 ml-2" href="pretraziStudente.html">Pretraži studente</a>
+    </nav>
+    <p style="margin-top: 1%; margin-left: 1%; margin-right: 1%;" id="dobrodosli"></p>
+    <a class="btn btn-outline-primary m-1" id="Odjava">Odjava</a>
+  </div>
+
+  
+      
+      <div class="jumbotron jumbotron-fluid">
+      <img src="img/vuv_pozadina.jpg" alt="Bootstrap error" class="jumbotron__background">
+
+        
+        <div class="container text-white">
+          <h1 class="display-1">REFERADA</h1>
+          <hr class="my-10" >
+          <p class="lead">Dobrodošli u upravljački sustav digitalne referade Veleučilišta u Virovitici</p>
+
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.jumbotron -->
+      <div class="marker">
+
+      </div>
+
+      <div class="row">
+          <div class="col d-flex justify-content-center">
+            <button id="ConfStud" type="button"  class="btn btn-rounded btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Ažuriranje studenata
+            </button>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <button id="Upisi" type="button" class="btn btn-rounded btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Upisi u višu godinu
+            </button>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <button id="azuriranjeStudenta" type="button" class="btn btn-rounded btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Ažuriranje predmeta
+            </button>
+          </div>
+      </div>
+      
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="js/firebase_config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/redirekcija.js"></script>
+    <script src="js/Studenti.js"></script>
+  
+  </body>
+</html>

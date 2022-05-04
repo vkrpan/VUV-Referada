@@ -1,0 +1,18 @@
+#odaberiStudentaZaUpis{
+  min-width: 400px;
+}
+
+body {
+  background: #2C42B6;
+  background: -webkit-linear-gradient(to left, #2C42B6, #8093f3);
+  background: linear-gradient(to left, #2C42B6, #8093f3);
+  min-height: 25vh;
+}
+#btnProvjeriPredmete{
+  margin-left: 70%;
+  margin-top: -5%;
+}
+#strictRight{
+  margin-left: auto;
+
+}
